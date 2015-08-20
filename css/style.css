@@ -26,3 +26,23 @@ header{
 	clear: both;
 }
 
+nav ul{
+	text-align: center;
+}
+
+nav li{
+	display: inline;
+	padding-left: 150px;
+	padding-right: 150px;
+	font-family: 'Nobile', sans-serif;
+	font-size: 20pt;
+}
+
+nav a:hover{
+	color: red;
+}
+
+nav a{
+	color: black;
+	text-decoration: none;
+}
