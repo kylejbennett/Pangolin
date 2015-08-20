@@ -1,5 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Kaushan+Script|Nobile);
 
+#wrapper{
+	width: 1100px;
+	margin: 0 auto;
+}
+
 header{
 	width: 1100px;
 	margin: 0 auto;
@@ -25,8 +30,6 @@ header{
 
 #logo{
 	width: 100px;
-	/*position: absolute;
-	left: 50px;*/
 	float: left;
 }
 
@@ -34,7 +37,17 @@ header{
 	clear: both;
 }
 
-nav ul{
+.banner-box{
+	top: 200px;
+	width: 1100;
+	height: 500px;
+	margin: 0 auto;
+}
+.banner{
+	height: 500px;
+}
+
+/*nav ul{
 	text-align: center;
 }
 
@@ -44,8 +57,20 @@ nav li{
 	padding-right: 150px;
 	font-family: 'Nobile', sans-serif;
 	font-size: 20pt;
+}*/
+ul#listheaders{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
 }
 
+li{
+	padding: 40px;	
+	display: inline-block;
+	font-family: 'Nobile', sans-serif;
+	font-size: 20pt;
+}
 nav a:hover{
 	color: red;
 }
@@ -54,3 +79,7 @@ nav a{
 	color: black;
 	text-decoration: none;
 }
+
+/******** Donate ********/ 
+
+/******** News ********/
