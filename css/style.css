@@ -2,25 +2,25 @@
 
 header{
 	width: 1000px;
+	margin: 0 auto;
 	display: block;
 }
 
 #left-header{
-	display: inline-block;
+	display: block;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 5em;
 	float: left;
-	width: 400px;
-	height: 100px;
-	border: 2px solid black;
 	
 }
 #right-header{
-	display: inline-block;
-	float: right;
-	width: 400px;
-	height: 100px;
-	border: 2px solid black;	
+	display: block;
+	float: right;	
+	font-family: 'Nobile', sans-serif;
+	width: 40%;
+	font-size: 1.2em;
+	text-align: right;
+
 }
 
 .clear{
