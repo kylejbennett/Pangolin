@@ -133,6 +133,10 @@ h2{
 	color: black;
 }
 
+h2 a{
+	color: black;
+}
+
 p{
 	font-family: 'Nobile', sans-serif;
 }
