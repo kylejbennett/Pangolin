@@ -1,5 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Kaushan+Script|Nobile);
 
+body{
+	background-color: #9FBF8C;
+}
 #wrapper{
 	width: 1100px;
 	margin: 0 auto;
@@ -18,6 +21,8 @@ header{
 	float: left;
 	padding: 0px;
 	margin-left: 0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 #right-header{
 	display: block;
@@ -26,11 +31,14 @@ header{
 	width: 40%;
 	font-size: 1.2em;
 	text-align: right;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 #logo{
 	width: 100px;
 	float: left;
+	margin-top: 15px;
 }
 
 .clear{
@@ -39,25 +47,15 @@ header{
 
 .banner-box{
 	top: 200px;
-	width: 1100;
+	width: 1100px;
 	height: 500px;
 	margin: 0 auto;
+	background-color: #C8AB65;
 }
 .banner{
 	height: 500px;
 }
 
-/*nav ul{
-	text-align: center;
-}
-
-nav li{
-	display: inline;
-	padding-left: 150px;
-	padding-right: 150px;
-	font-family: 'Nobile', sans-serif;
-	font-size: 20pt;
-}*/
 ul#listheaders{
     list-style:none;
     margin:0;
@@ -72,7 +70,7 @@ li{
 	font-size: 20pt;
 }
 nav a:hover{
-	color: red;
+	color: #C8AB65;
 }
 
 nav a{
@@ -91,6 +89,8 @@ footer a{
 	display: inline-block;
 }
 
+/******** Icons ********/
+
 .icons{
 	font-size: 50px;
 	height: 150px;
@@ -98,7 +98,7 @@ footer a{
 }
 
 .icons img{
-	width: 90px;
+	width: 50px;
 }
 
 .icons a{
@@ -114,6 +114,13 @@ footer a{
 	padding-top: 28px;
 }
 /******** Home ********/
+
+.content-boxes{
+	font-family: 'Nobile', sans-serif;
+	width: 500px;
+	margin: 20px;
+	float: left;
+}
 
 /******** Donate ********/ 
 
