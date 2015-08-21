@@ -218,6 +218,24 @@ form input, select{
 	margin-bottom: 18px;
 	width: 300px;
 }
+
+select{
+	width: 100px;
+}
+
+.cardnumber{
+	width: 150px;
+}
+
+.ccv{
+	width: 32px;
+}
+
+.exp input{
+	width: 32px;
+	margin-right: 8px;
+}
+
 /******** News ********/
 
 div.left-news{
