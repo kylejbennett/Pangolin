@@ -124,4 +124,64 @@ footer a{
 
 /******** Donate ********/ 
 
+#donate{
+	font-family: 'Nobile', sans-serif;
+}
+
+#donate h2{
+	font-family: 'Kaushan Script', cursive;
+	font-size: 20pt;
+	background-color: #9B8B80;
+}
+
+#donate h3{
+	background-color: #9B8B80;
+	text-align: center;
+}
+
+.forms{
+	padding-top: 32px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+.form1{
+	width: 45%;
+	display: inline-block;
+	float: left;
+}
+
+.form2{
+	width: 45%;
+	display: inline-block;
+	float: left;
+	margin-right: 24px;
+	margin-left: 24px;
+}
+
+form{
+	padding-top: 32px;
+}
+
+.radio input{
+	width: 28px;
+	margin-left: 12px;
+}
+
+.submit{
+	background: #9B8B80;
+	height: 64px;
+}
+
+.submit:hover{
+	background-color: #34722A;
+	font-size: 25pt;
+}
+
+form input, select{
+	height: 18px;
+	margin-top: 12px;
+	margin-bottom: 18px;
+	width: 300px;
+}
 /******** News ********/
