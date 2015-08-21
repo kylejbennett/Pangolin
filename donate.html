@@ -53,7 +53,12 @@
 					Zip:<br>
 					<input type="text" name="zip"><br>
 					Country:<br>
-					<input type="text" name="country"><br>
+					<select name="country">
+						<option>USA</option>
+						<option>Canada</option>
+						<option>Mexico</option>
+						<option>Elsewhere</option>
+					</select><br>
 					Email Addres:<br>
 					<input type="email" name="email"><br>
 				</form>
@@ -75,11 +80,13 @@
 						<option>Amex</option>
 					</select><br>
 					Credit Card Number:<br>
-					<input type="password" name="password"><br>
-					CVV:<br>
-					<input type="number" name="ccv"><br>
-					Expiration:<br>
-					<input type="text" name="expiration"><input type="text" name="expiration"><br>
+					<input class="cardnumber" type="password" name="password" placeholder="xxxx-xxxx-xxxx-xxxx"><br>
+					CCV:<br>
+					<input class="ccv" type="number" name="ccv"><br>
+					<div class="exp">
+						Expiration:<br>
+						<input type="text" name="expiration" placeholder="MM"><input type="text" name="expiration" placeholder="YYYY"><br>
+					</div>
 					<input class="submit" type="submit" value="Donate!">
 				</form>
 			</div>
