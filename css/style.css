@@ -129,12 +129,78 @@ footer a{
 }
 /******** Home ********/
 
-.content-boxes{
+.column1{
+	width: 525px;
+	display: inline-block;
+	float:left;
+}
+
+.column2{
+	width: 525px;
+	display: inline-block;
+	float:right;
+}
+
+.content-boxes1{
 	font-family: 'Nobile', sans-serif;
 	width: 500px;
-	height: 550px;
+	height: 666px;
 	margin: 20px;
 	float: left;
+	text-align: center;
+}
+
+.content-boxes2{
+	font-family: 'Nobile', sans-serif;
+	width: 500px;
+	height: 333px;
+	margin: 20px;
+	float: left;
+	text-align: center;
+}
+
+#hovervis1{
+	width:500px;
+	height: 600px;
+	background-color: white;
+	opacity: .4;
+	visibility: hidden;
+}
+
+#hovervis2{
+	width:500px;
+	height: 310px;
+	background-color: white;
+	opacity: .4;
+	visibility: hidden;
+}
+
+#threat{
+	background-image: url('../images/pangolin11.jpg');
+	background-size: cover;
+}
+
+.content-boxes1:hover #hovervis1{
+	visibility: visible;
+}
+
+.content-boxes2:hover #hovervis2{
+	visibility: visible;
+}
+
+#conserve{
+	background-image: url('../images/pangolin10.jpg');
+	background-size: cover;
+}
+
+#description{
+	background-image: url('../images/pangolin9.jpg');
+	background-size: cover;
+}
+
+#diet{
+	background-image: url('../images/pangolin8.jpg');
+	background-size: cover;
 }
 
 h2{
