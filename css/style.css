@@ -71,7 +71,7 @@ ul#listheaders{
     margin:0;
     padding:0;
     text-align:center;
-    width: 1119px;
+    width: 1100px;
     background-color: black;
 }
 
@@ -160,6 +160,9 @@ p{
 	font-family: 'Kaushan Script', cursive;
 	font-size: 20pt;
 	background-color: #9B8B80;
+	width: 1100px;
+	margin: 0 auto;
+	margin-top: 30px;
 }
 
 #donate h3{
@@ -199,11 +202,14 @@ form{
 .submit{
 	background: #9B8B80;
 	height: 64px;
+	font-family: 'Kaushan Script', cursive;
+
 }
 
 .submit:hover{
 	background-color: #34722A;
 	font-size: 25pt;
+	font-family: 'Kaushan Script', cursive;
 }
 
 form input, select{
