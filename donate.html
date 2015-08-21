@@ -31,7 +31,7 @@
 		</nav>
 	</div>
 
-	<div>
+	<div id="donate">
 
 		<h2>Make a Donation to Save the Pangolin</h2>
 
@@ -63,9 +63,11 @@
 				<h3>Payment Information</h3>
 				<form action="thankyou.html">
 					Payment Method:<br>
-					<input type="radio" name="method" value="Paypal">Paypal<br>
-					<input type="radio" name="method" value="Credit">Credit<br>
-					<input type="radio" name="method" value="Debit">Debit<br>
+					<div class="radio">
+						<input type="radio" name="method" value="Paypal">Paypal
+						<input type="radio" name="method" value="Credit">Credit
+						<input type="radio" name="method" value="Debit">Debit
+					</div>
 					Card Type:<br>
 					<select name="cctype">
 						<option>Visa</option>
@@ -78,12 +80,12 @@
 					<input type="number" name="ccv"><br>
 					Expiration:<br>
 					<input type="text" name="expiration"><input type="text" name="expiration"><br>
-					<input type="submit" value="Donate!">
+					<input class="submit" type="submit" value="Donate!">
 				</form>
 			</div>
 		</div>
 	</div>
-
+	<div class="clear"></div>
 	<footer>
 		<div class="icons">
 			<a href="http://www.facebook.com/savepangolins" target="_blank">
